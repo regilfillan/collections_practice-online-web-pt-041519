@@ -3,3 +3,7 @@ def sort_array_asc(array_of_integers)
   a<=>b
 end
 end
+
+def sort_array_desc(array_of_integers)
+  
+  
