@@ -28,7 +28,6 @@ def kesha_maker(array)
   new_array.each do |replace| 
     new_array<< replace.gsub!(/new_array[2]/, "$")
   end
-  new_array.join
   new_array
 end
   
