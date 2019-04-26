@@ -15,4 +15,4 @@ def sort_array_char_count(array_of_strings)
 end
 
 def swap_elements(array)
-  
+  array[0], array[]
