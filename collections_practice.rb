@@ -24,8 +24,10 @@ def reverse_array(array_of_integers)
 end
 
 def kesha_maker(array)
-  new_array= array.each.to_a 
-  new_array.each {|replace| replace.gsub!(/new_array[2]/, "$")}
+  new_array= []
+  new_array.each do |replace| 
+    new_array<< replace.gsub!(/new_array[2]/, "$")
+  end
   new_array.join
   new_array
 end
