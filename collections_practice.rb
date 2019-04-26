@@ -23,8 +23,8 @@ def reverse_array(array_of_integers)
   array_of_integers.reverse
 end
 
-def kesha_maker(array_of_strings)
-  new_word.each {|replace| replace.gsub!(/new_word[2]/, "$")}
+def kesha_maker(array)
+  new_array.each {|replace| replace.gsub!(/new_word[2]/, "$")}
   new_word.join
   new_array
 end
