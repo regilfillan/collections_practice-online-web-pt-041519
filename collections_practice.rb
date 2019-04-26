@@ -1,5 +1,5 @@
 def sort_array_asc(array)
-  array.sort do |a,b|
-    a.length<=>b.length
+  array.sort_by do |a|
+    a.length
   end
 end
