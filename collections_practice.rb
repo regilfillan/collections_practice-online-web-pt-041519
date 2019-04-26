@@ -34,5 +34,9 @@ def find_a(array)
     i.start_with? "a"
   end
 end
+
+def sum_array(array)
+  array.map do |i|
+    
   
   
