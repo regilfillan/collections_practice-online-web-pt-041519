@@ -10,3 +10,7 @@ def sort_array_desc(array_of_integers)
   end
 end
   
+def sort_array_char_count(array_of_strings)
+  array_of_strings.sort_by(&:length)
+end
+  
