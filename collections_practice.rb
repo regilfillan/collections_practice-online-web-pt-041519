@@ -28,5 +28,7 @@ def kesha_maker(array_of_strings)
   new_word.each {|replace| replace.gsub!(/new_word[2]/, "$")}
   new_word.to_s
   new_word.join
+  new_array
+end
   
   
